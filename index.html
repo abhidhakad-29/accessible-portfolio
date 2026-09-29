@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Alex Morgan's personal portfolio website featuring work, experience, and contact information."
+    />
+    <title>Alex Morgan | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Alex Morgan home">
+          <span class="brand-mark">AM</span>
+          <span class="brand-text">Alex Morgan</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          aria-label="Toggle navigation menu"
+        >
+          Menu
+        </button>
+
+        <nav id="site-navigation" class="site-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Product Designer & Front-End Developer</p>
+            <h1>Building calm, useful digital experiences.</h1>
+            <p class="lede">
+              I design and build thoughtful interfaces that help people move
+              through complex products with clarity and confidence.
+            </p>
+            <div class="cta-group">
+              <a class="button primary" href="projects.html">View My Work</a>
+              <a class="button secondary" href="contact.html">Let's Talk</a>
+            </div>
+
+            <ul class="mini-stats" aria-label="Key professional statistics">
+              <li><strong>6+</strong><span>Years experience</span></li>
+              <li><strong>24</strong><span>Projects launched</span></li>
+              <li><strong>100%</strong><span>User-focused</span></li>
+            </ul>
+          </div>
+
+          <aside class="hero-card" aria-label="Profile summary">
+            <div class="profile-visual" aria-hidden="true">
+              <div class="avatar">AM</div>
+            </div>
+            <div class="card-body">
+              <p class="label">Currently</p>
+              <h2>Senior Product Designer</h2>
+              <p>
+                Designing systems for SaaS, education, and digital health teams
+                that care about accessibility and measurable outcomes.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">What I do</p>
+            <h2>Strategy, design, and front-end craftsmanship.</h2>
+          </div>
+
+          <div class="card-grid three-col">
+            <article class="info-card">
+              <h3>UX Strategy</h3>
+              <p>
+                Research synthesis, user journeys, and product direction rooted in
+                real user needs.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <h3>Interface Design</h3>
+              <p>
+                High-fidelity prototypes, design systems, and accessible UI patterns
+                that scale.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <h3>Front-End Build</h3>
+              <p>
+                Clean HTML, CSS, and JavaScript implementation with thoughtful
+                performance and accessibility.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Recent impact</p>
+            <h2>Results driven by clarity and focus.</h2>
+          </div>
+
+          <div class="results-grid">
+            <article class="result-item">
+              <span class="number">31%</span>
+              <p>Increase in onboarding completion after redesigning the user flow.</p>
+            </article>
+            <article class="result-item">
+              <span class="number">2.4x</span>
+              <p>Faster access to critical tools through improved IA and navigation.</p>
+            </article>
+            <article class="result-item">
+              <span class="number">AA</span>
+              <p>Accessibility compliance improvements across reporting dashboards.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Alex Morgan</p>
+        <nav aria-label="Footer social links">
+          <ul>
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://www.github.com" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="mailto:hello@alexmorgan.design">Email</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

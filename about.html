@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learn more about Alex Morgan, a product designer and front-end developer."
+    />
+    <title>About | Alex Morgan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Alex Morgan home">
+          <span class="brand-mark">AM</span>
+          <span class="brand-text">Alex Morgan</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          aria-label="Toggle navigation menu"
+        >
+          Menu
+        </button>
+
+        <nav id="site-navigation" class="site-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-banner">
+        <div class="container narrow">
+          <p class="eyebrow">About</p>
+          <h1>Designing useful systems for real people.</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split-layout">
+          <div class="image-panel">
+            <div class="portrait-card" aria-label="Portrait placeholder for Alex Morgan">
+              <span>AM</span>
+            </div>
+          </div>
+
+          <div class="text-panel">
+            <h2>Thoughtful design grounded in research.</h2>
+            <p>
+              I'm a multidisciplinary designer and developer with a focus on
+              accessibility, clarity, and product outcomes. My work sits at the
+              intersection of strategy, UX design, and front-end implementation.
+            </p>
+            <p>
+              I help teams turn complex workflows into intuitive, well-structured
+              experiences that people can trust and use confidently.
+            </p>
+
+            <div class="tag-list" aria-label="Skills">
+              <span>UX Research</span>
+              <span>Design Systems</span>
+              <span>Accessibility</span>
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>Figma</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2>Career highlights.</h2>
+          </div>
+
+          <div class="timeline" aria-label="Career experience timeline">
+            <article class="timeline-item">
+              <p class="timeline-date">2022 — Present</p>
+              <div>
+                <h3>Senior Product Designer</h3>
+                <p>Lead product design for B2B SaaS dashboards and internal tooling.</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <p class="timeline-date">2018 — 2022</p>
+              <div>
+                <h3>UX Designer</h3>
+                <p>Designed digital experiences for education, healthcare, and civic platforms.</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <p class="timeline-date">2015 — 2018</p>
+              <div>
+                <h3>Front-End Developer</h3>
+                <p>Built accessible web interfaces and prototypes in fast-moving product teams.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Alex Morgan</p>
+        <nav aria-label="Footer social links">
+          <ul>
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://www.github.com" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="mailto:hello@alexmorgan.design">Email</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Alex Morgan for design, product, and front-end collaboration opportunities."
+    />
+    <title>Contact | Alex Morgan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Alex Morgan home">
+          <span class="brand-mark">AM</span>
+          <span class="brand-text">Alex Morgan</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          aria-label="Toggle navigation menu"
+        >
+          Menu
+        </button>
+
+        <nav id="site-navigation" class="site-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-banner">
+        <div class="container narrow">
+          <p class="eyebrow">Contact</p>
+          <h1>Let's build something useful together.</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-layout">
+          <div class="contact-copy">
+            <h2>Available for selected collaborations.</h2>
+            <p>
+              I partner with teams who value accessible experience design, product
+              clarity, and thoughtful execution.
+            </p>
+
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <a href="mailto:hello@alexmorgan.design">hello@alexmorgan.design</a></li>
+              <li><strong>Location:</strong> Portland, OR</li>
+              <li><strong>Focus:</strong> Product design, UX systems, front-end development</li>
+            </ul>
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+
+            <div class="form-row">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" />
+            </div>
+
+            <div class="form-row">
+              <label for="message">Project details</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+
+            <button type="submit" class="button primary">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Alex Morgan</p>
+        <nav aria-label="Footer social links">
+          <ul>
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://www.github.com" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="mailto:hello@alexmorgan.design">Email</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
